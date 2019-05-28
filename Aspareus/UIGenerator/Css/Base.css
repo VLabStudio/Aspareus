@@ -1,0 +1,152 @@
+li {
+  list-style-type: none;
+  margin-bottom: 2%;
+}
+
+body {
+  margin: 0px;
+}
+
+.Small {
+  width: 15%;
+}
+
+.Medium {
+  width: 35%;
+}
+
+.Big {
+  width: 50%;
+}
+
+.ExtraBig {
+  width: 80%;
+}
+
+.ElementCenter {
+  display: block;
+  margin: auto;
+}
+
+.ElementLeft {
+  display: block;
+  margin-right: auto;
+}
+
+.ElementRight {
+  display: block;
+  margin-left: auto;
+}
+
+.TextCenter {
+  text-align: center;
+}
+
+.TextLeft {
+  text-align: left;
+}
+
+.TextRight {
+  text-align: right;
+}
+
+.GridViewWrapper * {
+  box-sizing: border-box;
+}
+
+.GridViewTop {
+  overflow:hidden;
+}
+
+.GridViewLeft {
+  width: 25%;
+  float: left;
+  overflow:hidden;
+}
+
+.GridViewRight {
+  width: 25%;
+  float: right;
+  overflow:hidden;
+}
+
+.GridViewCenter {
+  width: 75%;
+  float: left;
+}
+
+.GridViewBottom {
+  overflow:hidden;
+  position:absolute;
+  height: 100px;
+  bottom:0;
+  width: 100%;
+}
+
+.GridViewCenterElementSmall {
+  display: block;
+  margin-left:  25%;
+}
+
+.GridViewCenterElementMedium {
+  display: block;
+  margin-left:  20%;
+}
+
+.GridViewCenterElementBig {
+  display: block;
+  margin-left:  15%;
+}
+
+.GridViewCenterElementExtraBig {
+  display: block;
+  margin-left:  -3%;
+}
+
+.TopSpacingSmall {
+    margin-top: 4%;
+}
+
+.TopSpacingMedium {
+    margin-top: 15%;
+}
+
+.TopSpacingBig {
+    margin-top: 35%;
+}
+
+.BottomSpacingSmall {
+    margin-bottom: 4%;
+}
+
+.BottomSpacingMedium {
+    margin-bottom: 15%;
+}
+
+.BottomSpacingBig {
+    margin-bottom: 35%;
+}
+
+.LeftSpacingSmall {
+    margin-left: 4%;
+}
+
+.LeftSpacingMedium {
+    margin-left: 15%;
+}
+
+.LeftSpacingBig {
+    margin-left: 35%;
+}
+
+.RightSpacingSmall {
+    margin-right: 4%;
+}
+
+.RightSpacingMedium {
+    margin-right: 15%;
+}
+
+.RightSpacingBig {
+    margin-right: 35%;
+}

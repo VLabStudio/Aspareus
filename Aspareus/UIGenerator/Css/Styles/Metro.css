@@ -1,0 +1,133 @@
+.UIBoxSmall {
+  background-color: #eeeeee;
+  width: 20%;
+  min-width: 200px;
+  padding: 1%;
+}
+
+.UIBoxMedium {
+  background-color: #eeeeee;
+  width: 35%;
+  min-width: 200px;
+  padding: 1%;
+}
+
+.UIBoxBig {
+  background-color: #eeeeee;
+  width: 50%;
+  min-width: 200px;
+  padding: 1%;
+}
+
+.UIBoxExtraBig {
+  background-color: #eeeeee;
+  width: 80%;
+  min-width: 200px;
+  padding: 1%;
+}
+
+.UIBoxSelected:hover {
+    background-color: #e8e8e8;
+}
+
+.SubmitButton {
+  padding: 2%;
+  background-color: #333333;
+  color: #FFFFFF;
+  font-size: 105%;
+  box-sizing: border-box;
+  border: 2px solid #333333;
+  outline: none;
+}
+
+.SubmitButton:focus {
+    background-color: #282828;
+    border: 2px solid #282828;
+}
+
+.SubmitButton:hover {
+    background-color: #282828;
+    border: 2px solid #282828;
+}
+
+.UserInput {
+    background-color: #dedede;
+    color: #333333;
+    padding: 3% 3%;
+    box-sizing: border-box;
+    border: 2px solid #dedede;
+    outline: none;
+    font-size: 95%;
+}
+
+.UserInput:focus {
+    background-color: #eeeeee;
+}
+
+.TextStyle {
+  color: #282828;
+  font-family: "Shruti Regular", Times, serif;
+}
+
+.LinkStyle {
+    color: #282828;
+    text-decoration: none;
+    font-family: "Shruti Regular", Times, serif;
+}
+
+.TableStyle {
+  font-family: "Shruti Regular", Times, serif;
+  border-collapse: collapse;
+  width: 60%;
+  min-width: 800px;
+}
+
+.TableStyle th {
+  text-align: center;
+  padding: 8px;
+  background-color: #333333;
+  color: #eeeeee;
+}
+
+.TableStyle  td{
+  text-align: center;
+  padding: 8px;
+  color: #333333;
+}
+
+.TableStyle tr:nth-child(even) {
+    background-color: #dedede;
+}
+
+.TableStyle tr:nth-child(odd) {
+    background-color: #eeeeee;
+}
+
+input[type=radio].CheckboxStyle {
+    position: absolute;
+    z-index: -1000;
+    left: -1000px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+input[type=radio].CheckboxStyle + label.CheckboxStyle {
+    padding-left: 27px;
+    height: 22px;
+    display: inline-block;
+    line-height: 22px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+}
+input[type=radio].CheckboxStyle:checked + label.CheckboxStyle {
+    background-position: 0 -22px;
+}
+label.CheckboxStyle {
+    background-image: url(../../Icons/CheckBox-Style-2.png);
+}
